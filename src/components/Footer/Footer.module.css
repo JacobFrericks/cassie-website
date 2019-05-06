@@ -1,0 +1,27 @@
+.textAndButton {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.text {
+    margin-bottom: 40px;
+}
+
+.button {
+    text-transform: uppercase;
+    color: white;
+    border-radius: 50px;
+    padding: 20px;
+    border: 1px solid teal;
+    background-color: teal;
+}
+.button:hover {
+    color: white;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none!important;
+}

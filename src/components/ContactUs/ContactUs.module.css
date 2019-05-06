@@ -1,0 +1,72 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner {
+    width: 50vw;
+    height: 50vh;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.imageTextContainer {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+.form {
+    width: 75vw;
+    margin:0 auto;
+}
+
+
+.nameContainer {
+    display: flex;
+}
+
+.nameDivs {
+    flex: 1;
+    margin: 0.5em;
+}
+
+.nameInput {
+    width: 100%;
+}
+
+.subText{
+    font-size: smaller;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputLabel {
+    margin: 0.5em;
+}
+
+.input {
+    margin: 0.5em;
+}
+
+.submitButton {
+    margin: 0.5em;
+}
+
