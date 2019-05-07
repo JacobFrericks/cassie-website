@@ -8,7 +8,7 @@ import ContactUs from "./components/ContactUs/ContactUs";
 export default class App extends Component {
 
   componentDidMount() {
-    document.title = 'Mid-Iowa Vending';
+    document.title = 'Cassie Frericks';
   }
 
   render() {
