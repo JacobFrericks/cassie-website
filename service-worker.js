@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/midiowavending/precache-manifest.200f781369d98f9a2ee8ae4d7ba75517.js"
+  "/cassie-website/precache-manifest.87dbd5c1446b3a0643729b686a6f0ba8.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/midiowavending/index.html", {
+workbox.routing.registerNavigationRoute("/cassie-website/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
