@@ -27,14 +27,9 @@ export default class NavBar extends Component {
   }
 
   render() {
-
     let base = process.env.PUBLIC_URL + "/#";
-    console.log(base);
-
     let home = base + "/";
-    let products = base + "/products";
-    let services = base + "/services";
-    let contactUs = base + "/contactUs";
+    let contactMe = base + "/contactMe";
 
     return (
       <div>
@@ -49,9 +44,7 @@ export default class NavBar extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem><NavLink href={home} className={"text-white"}>{strings.navbar_home}</NavLink></NavItem>
-            <NavItem><NavLink href={products} className={"text-white"}>{strings.navbar_products}</NavLink></NavItem>
-            <NavItem><NavLink href={services} className={"text-white"}>{strings.navbar_services}</NavLink></NavItem>
-            <NavItem><NavLink href={contactUs} className={"text-white"}>{strings.navbar_contact}</NavLink></NavItem>
+            <NavItem><NavLink href={contactMe} className={"text-white"}>{strings.navbar_contact}</NavLink></NavItem>
           </Nav>
           </Collapse>
         </Navbar>

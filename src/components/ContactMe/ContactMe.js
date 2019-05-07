@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import Banner from "../Banner/Banner";
 import strings from "../../strings";
-import styles from './ContactUs.module.css';
+import styles from './ContactMe.module.css';
 
-export default class ContactUs extends Component {
+export default class ContactMe extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -52,11 +52,11 @@ export default class ContactUs extends Component {
         <br/>
         <div className={styles.nameContainer}>
           <div className={styles.nameDivs}>
-            <input className={styles.nameInput} type="text" name="firstName" onChange={this.handleFirstNameChange}/><br/>
+            <input className={styles.nameInput} type="text" name="firstName" value={this.state.firstName} onChange={this.handleFirstNameChange}/><br/>
             <text className={styles.subText}>First Name</text>
           </div>
           <div className={styles.nameDivs}>
-            <input className={styles.nameInput} type="text" name="lastName" onChange={this.handleLastNameChange}/><br/>
+            <input className={styles.nameInput} type="text" name="lastName" value={this.state.lastName} onChange={this.handleLastNameChange}/><br/>
             <text className={styles.subText}>Last Name</text>
           </div>
         </div>
@@ -68,7 +68,7 @@ export default class ContactUs extends Component {
     return (
       <div className={styles.inputContainer}>
         <label className={styles.inputLabel}>Email *</label>
-        <input className={styles.input} type="text" name="email" onChange={this.handleEmailChange}/><br/>
+        <input className={styles.input} type="text" name="email" value={this.state.email} onChange={this.handleEmailChange}/><br/>
       </div>
     );
   }
@@ -77,7 +77,7 @@ export default class ContactUs extends Component {
     return (
       <div className={styles.inputContainer}>
         <label className={styles.inputLabel}>Subject *</label>
-        <input className={styles.input} type="text" name="subject" onChange={this.handleSubjectChange}/><br/>
+        <input className={styles.input} type="text" name="subject" value={this.state.subject} onChange={this.handleSubjectChange}/><br/>
       </div>
     );
   }
@@ -86,14 +86,16 @@ export default class ContactUs extends Component {
     return (
       <div className={styles.inputContainer}>
         <label className={styles.inputLabel}>Message *</label>
-        <textarea className={styles.input} type="text" name="message" onChange={this.handleMessageChange}/><br/>
+        <textarea className={styles.input} type="text" name="message" value={this.state.message} onChange={this.handleMessageChange}/><br/>
       </div>
     );
   }
 
   handleSubmit(event) {
     event.preventDefault();
+    const self = this;
 
+    // fetch('https://52z0x2c8v9.execute-api.us-east-1.amazonaws.com/default/cassie-website-email', {
     fetch('https://bejomkze58.execute-api.us-east-1.amazonaws.com/default/email-bobs-vending', {
       method: 'POST',
       headers: {
@@ -107,6 +109,15 @@ export default class ContactUs extends Component {
         subject: this.state.subject,
         message: this.state.message
       })
+    }).then(function() {
+      self.setState({
+        firstName: '',
+        lastName: '',
+        email: '',
+        subject: '',
+        message: ''
+      });
+      alert("Thank you for your interest! I will get back to you as soon as I can!")
     });
   }
 
@@ -115,7 +126,7 @@ export default class ContactUs extends Component {
       <div>
         <div>
           <Banner
-            picLocation={'banner_4.jpeg'}
+            picLocation={'child_handwriting.jpeg'}
             picText={strings.contact_banner}
           />
         </div>

@@ -8,10 +8,9 @@ export default class Footer extends Component {
     return (
       <div className={styles.textAndButton}>
         <div className={styles.text}>
-          Contact us today to learn more about our reliable vending services, and 100% satisfaction guarantee
         </div>
-        <Link to="/contactUs">
-          <a href="#" className={styles.button}>Contact Us</a>
+        <Link to="/contactMe">
+          <a href="#" className={styles.button}>Contact Me</a>
         </Link>
       </div>
     );

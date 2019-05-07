@@ -30,7 +30,7 @@ export default class Banner extends Component {
           <div className={styles.centerContent}>
             <h1>{picText}</h1>
             {showButton ?
-              <Link to="/contactUs">
+              <Link to="/contactMe">
                 <a href="#" className={styles.button}>Learn More</a>
               </Link>
               : null }
