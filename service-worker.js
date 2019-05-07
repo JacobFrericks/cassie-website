@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cassie-website/precache-manifest.e2a59e8ddbb1d0eb7133d49e0a9edfcd.js"
+  "www.cassiefrericks.com/precache-manifest.12ebfc9c2ad6dc1c58251f078a53aa06.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/cassie-website/index.html", {
+workbox.routing.registerNavigationRoute("www.cassiefrericks.com/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
