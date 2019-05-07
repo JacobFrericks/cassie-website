@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/static/media/banner_4.5b20b781.jpeg"
   },
   {
-    "revision": "031b082c1e997897c2da",
-    "url": "/static/css/main.102333a5.chunk.css"
+    "revision": "f5a025ffe39c7f3a6c46",
+    "url": "/static/css/main.b5f73f77.chunk.css"
   },
   {
     "revision": "78da452edc574f77e3bd6773f6805079",
     "url": "/static/media/vending_machine_dark.78da452e.jpg"
   },
   {
-    "revision": "906dd023275dcf8d868f",
-    "url": "/static/js/1.906dd023.chunk.js"
+    "revision": "e9d83aab371351ca4466",
+    "url": "/static/js/1.e9d83aab.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/static/media/banner_3.76b47932.jpeg"
   },
   {
-    "revision": "031b082c1e997897c2da",
-    "url": "/static/js/main.031b082c.chunk.js"
+    "revision": "f5a025ffe39c7f3a6c46",
+    "url": "/static/js/main.f5a025ff.chunk.js"
   },
   {
     "revision": "2e00eb50aae7532d66565b9935022a62",
@@ -68,11 +68,11 @@ self.__precacheManifest = [
     "url": "/static/media/preview6.36906b9f.jpg"
   },
   {
-    "revision": "906dd023275dcf8d868f",
-    "url": "/static/css/1.29ba840e.chunk.css"
+    "revision": "e9d83aab371351ca4466",
+    "url": "/static/css/1.731bf4f6.chunk.css"
   },
   {
-    "revision": "1e630062ec7cc0c1ef3f2545e8c2b0a4",
+    "revision": "fe05575842db5eb7403decb3adf99bfb",
     "url": "/index.html"
   }
 ];
