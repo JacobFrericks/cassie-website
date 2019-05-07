@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cassie-website/precache-manifest.87dbd5c1446b3a0643729b686a6f0ba8.js"
+  "/cassie-website/precache-manifest.e2a59e8ddbb1d0eb7133d49e0a9edfcd.js"
 );
 
 workbox.clientsClaim();

@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/cassie-website/static/media/banner_4.5b20b781.jpeg"
   },
   {
-    "revision": "83e34f2d4a14a3af2292",
+    "revision": "44a9ce0b7454b7958bdb",
     "url": "/cassie-website/static/css/main.b5f73f77.chunk.css"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/cassie-website/static/media/banner_3.76b47932.jpeg"
   },
   {
-    "revision": "83e34f2d4a14a3af2292",
-    "url": "/cassie-website/static/js/main.83e34f2d.chunk.js"
+    "revision": "44a9ce0b7454b7958bdb",
+    "url": "/cassie-website/static/js/main.44a9ce0b.chunk.js"
   },
   {
     "revision": "2e00eb50aae7532d66565b9935022a62",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/cassie-website/static/css/1.731bf4f6.chunk.css"
   },
   {
-    "revision": "d868f47621606cc2ac39063cdae63e3e",
+    "revision": "b081efe25ee24bcf82e115875f63d8ba",
     "url": "/cassie-website/index.html"
   }
 ];
