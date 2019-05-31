@@ -95,7 +95,8 @@ export default class ContactMe extends Component {
     event.preventDefault();
     const self = this;
 
-    fetch('https://52z0x2c8v9.execute-api.us-east-1.amazonaws.com/default/cassie-website-email', {
+    // fetch('https://52z0x2c8v9.execute-api.us-east-1.amazonaws.com/default/cassie-website-email', {
+    fetch('https://bejomkze58.execute-api.us-east-1.amazonaws.com/default/email-bobs-vending', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',

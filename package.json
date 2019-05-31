@@ -2,9 +2,9 @@
   "name": "cassie-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cassiefrericks.com",
+  "homepage": "https://www.cassiefrericks.com",
   "dependencies": {
-    "bootstrap": "^4.2.1",
+    "bootstrap": "^4.3.1",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-router-dom": "^4.3.1",
