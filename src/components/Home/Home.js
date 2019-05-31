@@ -16,7 +16,7 @@ export default class Home extends Component {
             showButton={false}
           />
         </div>
-        <div className={styles.body}>
+        <div>
           <PicText
             picSide="left"
             picLocation="self_picture.jpg"

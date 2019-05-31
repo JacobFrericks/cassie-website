@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
+import { Container, Row, Col} from 'reactstrap';
 import styles from './PicText.module.css'
 
 export default class PicText extends Component {
 
   getText(title, body) {
     return (
-      <div className={styles.textContainer}>
+      <div>
         <h4>
           {title}
         </h4>
@@ -15,7 +16,7 @@ export default class PicText extends Component {
 
   getImage(picLocation) {
     return (picLocation ?
-      <img className={styles.images} src={require('../../images/' + picLocation)} alt='vending machine'/> :
+      <img src={require('../../images/' + picLocation)} alt='vending machine'/> :
       null);
   }
 
@@ -25,19 +26,14 @@ export default class PicText extends Component {
     let image = this.getImage(picLocation);
 
     return (
-      <div className={styles.imageTextContainer}>
-        {picSide === 'left' ?
-          <div className={styles.sideBySide}>
-            {image}
-            {text}
-          </div>
-          :
-          <div className={styles.sideBySide}>
-            {text}
-            {image}
-          </div>
-        }
-      </div>
+      <Container>
+          <Row className={styles.imageTextContainer}>
+            <Col>{picSide === 'left' ? image : text}</Col>
+            <Col>{picSide === 'left' ? text : image}</Col>
+          </Row>
+      </Container>
     );
   }
 }
+
+const Box = props => <div className="box">{props.children} </div>;
