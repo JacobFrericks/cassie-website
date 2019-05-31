@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.e1037ff8.chunk.css",
-  "main.js": "/static/js/main.0217d35e.chunk.js",
-  "main.js.map": "/static/js/main.0217d35e.chunk.js.map",
+  "main.js": "/static/js/main.9c53166a.chunk.js",
+  "main.js.map": "/static/js/main.9c53166a.chunk.js.map",
   "static/css/1.1ff37af4.chunk.css": "/static/css/1.1ff37af4.chunk.css",
   "static/js/1.0cd06b9b.chunk.js": "/static/js/1.0cd06b9b.chunk.js",
   "static/js/1.0cd06b9b.chunk.js.map": "/static/js/1.0cd06b9b.chunk.js.map",
@@ -11,9 +11,9 @@
   "static/media/math_activity.jpg": "/static/media/math_activity.04b57ce6.jpg",
   "static/media/self_picture.jpg": "/static/media/self_picture.8498800f.jpg",
   "static/media/home_banner.jpeg": "/static/media/home_banner.40401d8e.jpeg",
-  "static/css/1.1ff37af4.chunk.css.map": "/static/css/1.1ff37af4.chunk.css.map",
   "static/css/main.e1037ff8.chunk.css.map": "/static/css/main.e1037ff8.chunk.css.map",
+  "static/css/1.1ff37af4.chunk.css.map": "/static/css/1.1ff37af4.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.d6bf0460ba8ae19d2dd9517f3c9526f6.js": "/precache-manifest.d6bf0460ba8ae19d2dd9517f3c9526f6.js",
+  "precache-manifest.24d0597e7146e1511c804164a0c7afe2.js": "/precache-manifest.24d0597e7146e1511c804164a0c7afe2.js",
   "service-worker.js": "/service-worker.js"
 }
